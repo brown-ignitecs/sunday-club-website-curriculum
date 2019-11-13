@@ -1,0 +1,27 @@
+<html>
+<script src="calculator.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+}
+</style>
+<div id="calc-result">0</div>
+<div id="numbers" class="column">
+	<button onclick="numberOnClick(this.id)" type="button" id="1">1</button><button onclick="numberOnClick(this.id)" type="button" id="2">2</button><button onclick="numberOnClick(this.id)" type="button" id="3">3</button></br>
+	<button onclick="numberOnClick(this.id)" type="button" id="4">4</button><button onclick="numberOnClick(this.id)" type="button" id="5">5</button><button onclick="numberOnClick(this.id)" type="button" id="6">6</button></br>
+	<button onclick="numberOnClick(this.id)" type="button" id="7">7</button><button onclick="numberOnClick(this.id)" type="button" id="8">8</button><button onclick="numberOnClick(this.id)" type="button" id="9">9</button></br>
+	<button onclick="numberOnClick(this.id)" type="button" id="0">0</button><button onclick="enterOnClick()" type="button" id="Enter">Enter</button></br>
+	<button onclick="clearOnClick()" type="button">Clear</button>
+</div>
+<div id="numbers" class="column">
+	<button onclick="opOnClick(this.id)" type="button" id="+">+</button></br>
+	<button onclick="opOnClick(this.id)" type="button" id="-">-</button></br>
+	<button onclick="opOnClick(this.id)" type="button" id="*">*</button></br>
+	<button onclick="opOnClick(this.id)" type="button" id="/">/</button></br>
+</div>
+</html>
