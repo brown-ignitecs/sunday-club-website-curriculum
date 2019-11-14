@@ -101,9 +101,12 @@ class Person {
 		return this.drawSpeach() + this.drawPersonFigure() + this.drawFeatures();
 	}
 };
-
-let lonely_person = new Person('No Name',30,'Can you help me find me some friends?', "bald","money","talking","waving");
-let friend = new Person('Is Friend',35,'I can be a friend!',"bunny","open","vampire","not waving");
+// Head: bunny, bow, bald
+// Eyes: open, closed, wink, money
+// Mouth: happy, sad, talking, sticking tongue, vampire
+// Arm: waving, not waving
+let lonely_person = new Person('No Name',15,'Can you help me find me some friends?', "bald","money","talking","waving");
+let friend = new Person('Is Friend',18,'I can be a friend!',"bunny","open","vampire","not waving");
 
 
  
